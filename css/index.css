@@ -19,10 +19,7 @@ body {
 
 .sidebar-nav {
     text-align: center;
-    margin-top: 8px;
-    margin-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 8px auto 25px;
 }
 
 .sidebar-nav-item {
@@ -46,4 +43,34 @@ body {
 
 main {
     margin-left: 390px;
+    height: 100%;
+}
+
+.title-section {
+    height: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.title-image {
+    margin-bottom: 35px;
+}
+
+.title-section .section-header {
+    font-size: 48px;
+}
+
+.title-paragraph {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.experience-section {
+    height: 100%;
 }
