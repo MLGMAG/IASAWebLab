@@ -1,0 +1,49 @@
+.sidebar {
+    height: 100%;
+    width: 390px;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0;
+    left: 0;
+    background-image: url("../img/sideBarGradient.png");
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar-icon {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar-nav {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar-nav-item {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #171717;
+    display: block;
+}
+
+.sidebar-social {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-social-item {
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+main {
+    margin-left: 390px;
+}
