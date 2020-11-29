@@ -1,7 +1,7 @@
 .sidebar {
     height: 100%;
     width: 390px;
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    position: fixed;
     top: 0;
     left: 0;
     background-image: url("../img/sideBarGradient.png");
@@ -43,11 +43,9 @@ body {
 
 main {
     margin-left: 390px;
-    height: 100%;
 }
 
 .title-section {
-    height: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
@@ -62,15 +60,34 @@ main {
 }
 
 .title-paragraph {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 35px;
-    margin-bottom: 40px;
+    margin: 35px 10% 40px;
     font-size: 24px;
     text-align: justify;
     text-indent: 50px;
 }
 
 .experience-section {
-    height: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.experience-section .section-header {
+    padding-top: 50px;
+    font-size: 48px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 70px;
+}
+
+.experience-section ul {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 24px;
+    list-style-type: circle;
+}
+
+.experience-section li {
+    margin-top: 50px;
+    margin-bottom: 55px;
 }
