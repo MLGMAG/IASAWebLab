@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-image: url("../img/sideBarGradient.png");
+    background-image: linear-gradient(45deg, rgb(216, 255, 126), rgb(151, 231, 162));
     overflow-x: hidden;
 }
 
