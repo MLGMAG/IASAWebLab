@@ -15,3 +15,8 @@ main {
 .video-container-item a {
     float: left;
 }
+
+.info-section-form {
+    display: flex;
+    flex-direction: column;
+}
